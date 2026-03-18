@@ -1,6 +1,9 @@
 # Facebook Comments Deleter
-**Automate the tedious task of clearing your digital footprint.**
-A simple browser-based script that automatically deletes your Facebook comments one by one. It’s secure, no need to share your password or grant special permissions, and includes random delays to mimic human behavior, making it less likely to be flagged as a bot.
+**Automate the tedious task of clearing your digital footprint.**<br />
+A simple browser-based script that automatically deletes your Facebook comments one by one.<br />
+It’s secure, no need to share your password or grant special permissions, and includes random delays to mimic human behavior, making it less likely to be flagged as a bot.<br /><br />
+
+Run the script and leave the tab visible to see the automation in action. Because this tool prioritizes account safety by simulating human behavior, large-scale deletions are processed gradually. For best results, keep your browser open until the task is complete.
 
 ## Steps
 
@@ -55,5 +58,5 @@ A simple browser-based script that automatically deletes your Facebook comments 
 - Let me know if you run into any issues.
 
 ## License
-This project is licensed under the **MIT License**.
+This project is licensed under the **MIT License**.<br />
 Developed by **Lee Zhi Eng** Visit my website for more tools and projects: [zhieng.com](https://www.zhieng.com)
