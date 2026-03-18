@@ -35,13 +35,13 @@ Run the script and leave the tab visible to see the automation in action. Becaus
 </p>
 
 8. Click **+ New snippet**, then paste the full script from `snippet.js` into the editor on the right  
-9. Hit **Ctrl + Enter** (or click **Run snippet**) and let it do its thing
+9. Click the **Run snippet - Ctrl + Enter** button and let it do its thing
 
 <p align="left">
   <img src="steps/05.png" width="320">
 </p>
 
-10. To pause the automation, click the **Pause script execution** button in the **Sources** tab or use the F8 shortcut. Once you are finished, simply close the browser tab; no manual cleanup is required.
+10. To pause the automation, click the **Pause script execution** button in the **Sources** tab or use the F8 shortcut. Once you are finished, simply close the browser tab, no manual cleanup is required.
 
 <p align="left">
   <img src="steps/06.png" width="320">
