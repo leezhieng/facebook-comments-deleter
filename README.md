@@ -7,41 +7,41 @@ A simple browser-based script that automatically deletes your Facebook comments 
 1. Click your profile picture in the top-right corner  
 2. Go to **Settings & Privacy**
 
-<p align="center">
+<p align="left">
   <img src="steps/01.png" width="200">
 </p>
 
 3. Open **Activity Log**  
 
-<p align="center">
+<p align="left">
   <img src="steps/02.png" width="200">
 </p>
 
 4. Select **Comments**  
 
-<p align="center">
-  <img src="steps/03.png" width="200">
+<p align="left">
+  <img src="steps/03.png" width="220">
 </p>
 
 5. Press **F12**, or right-click anywhere on the page and choose **Inspect**  
 6. In the tabs, click **>>** and select **Sources**  
 7. In the second row of tabs (Page, Workspace, etc.), click **>>** again and choose **Snippets**  
 
-<p align="center">
-  <img src="steps/04.png" width="200">
+<p align="left">
+  <img src="steps/04.png" width="320">
 </p>
 
 8. Click **+ New snippet**, then paste the full script from `snippet.js` into the editor on the right  
 9. Hit **Ctrl + Enter** (or click **Run snippet**) and let it do its thing
 
-<p align="center">
-  <img src="steps/05.png" width="200">
+<p align="left">
+  <img src="steps/05.png" width="320">
 </p>
 
 10. To pause the automation, click the "Pause script execution" button in the Sources tab or use the F8 shortcut. Once you are finished, simply close the browser tab; no manual cleanup is required.
 
-<p align="center">
-  <img src="steps/06.png" width="200">
+<p align="left">
+  <img src="steps/06.png" width="320">
 </p>
 
 ## Notes
