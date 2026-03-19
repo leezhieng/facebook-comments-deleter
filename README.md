@@ -47,11 +47,11 @@ Run the script and leave the tab visible to see the automation in action. Becaus
   <img src="steps/06.png" width="320">
 </p>
 
-## Difference
+## Difference between snippet.js and snippet_bulk.js
 
 **snippet.js**
 
-- This script deletes comments one at a time
+- This script deletes comments one at a time, then repeat the process
 
 <p align="left">
   <img src="steps/delete_each.png" width="320">
@@ -59,7 +59,7 @@ Run the script and leave the tab visible to see the automation in action. Becaus
 
 **snippet_bulk.js**
 
-- This script selects all comments on a page (usually around 25) and deletes them in one go
+- This script selects all comments on a page (usually around 25) and deletes them in one go, then repeat the process
 
 <p align="left">
   <img src="steps/delete_bulk.png" width="320">
