@@ -35,7 +35,7 @@
         console.log(`%cIteration ${i + 1} of ${repeatCount}`, "color: green;");
 
         try {
-            // EXECUTE STEP 1
+            // STEP 1: Select the three-dots menu
             const element1 = document.querySelector(selectors.step1);
             if (!element1) throw new Error("Could not find the first element (three-dots/menu).");
             
@@ -45,7 +45,7 @@
             // JITTER 1: 1.5 - 3 seconds
             await wait(Math.random() * 1500 + 1500);
 
-            // EXECUTE STEP 2
+            // STEP 2: Click the 'Delete' button
             const element2 = document.querySelector(selectors.step2);
             if (!element2) throw new Error("Could not find the second element (Delete/Move to trash).");
             

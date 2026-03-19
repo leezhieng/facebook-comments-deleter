@@ -34,7 +34,7 @@ Run the script and leave the tab visible to see the automation in action. Becaus
   <img src="steps/04.png" width="320">
 </p>
 
-8. Click **+ New snippet**, then paste the full script from `snippet.js` into the editor on the right  
+8. Click **+ New snippet**, then paste the full script from `snippet.js` or `snippet_bulk.js` into the editor on the right  
 9. Click the **Run snippet - Ctrl + Enter** button and let it do its thing
 
 <p align="left">
@@ -47,9 +47,28 @@ Run the script and leave the tab visible to see the automation in action. Becaus
   <img src="steps/06.png" width="320">
 </p>
 
+## Difference
+
+**snippet.js**
+
+- This script deletes comments one at a time
+
+<p align="left">
+  <img src="steps/delete_each.png" width="320">
+</p>
+
+**snippet_bulk.js**
+
+- This script selects all comments on a page (usually around 25) and deletes them in one go
+
+<p align="left">
+  <img src="steps/delete_bulk.png" width="320">
+</p>
+
 ## Notes
 
 - You can tweak the `repeatCount` value to delete more or fewer comments.  
+- If you’re using the bulk delete script (snippet_bulk.js), run it once first, Facebook will prompt you to enter your account password. After that initial step, you can run the script normally.
 - You can also adjust the jitter and delay settings if needed, but it’s best to leave them as-is unless you know what you’re doing.
 - Please do not minimize the browser window. Facebook’s dynamic UI relies on active rendering to trigger the "infinite scroll" that loads older history items. If the window is minimized, the script may throw a "Could not find element" error because the next set of posts has failed to load into the DOM.
 
