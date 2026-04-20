@@ -58,7 +58,7 @@ Don’t worry, this is completely normal. The reasons are as follows:
 
 **Scroll up**
 
-- After selecting all posts based on your chosen options, the system needs to click the **Move to Trash** button located at the top of the page.
+- After selecting all posts based on your chosen options, the system needs to click the **Trash** button located at the top of the page.
 - Without scrolling back to the top, the confirmation dialog will not appear.
 
 <p align="left">
